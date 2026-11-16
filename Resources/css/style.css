@@ -46,3 +46,82 @@ header {
   color: white;
   font-family: Arial, sans-serif;
 }
+
+/*calice*/
+
+.transform {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.transform-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 15%;
+}
+
+.transform-text h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.transform-text p {
+  color: #818498;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.transform-text a {
+  color: #24303e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.transform img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transform: translateY(-96px);
+}
+
+
+.stand-out {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.stand-out img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translateY(-96px);
+}
+
+.stand-out-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 15%;
+}
+
+.stand-out-text h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.stand-out-text p {
+  color: #818498;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.stand-out-text a {
+  color: #24303e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
